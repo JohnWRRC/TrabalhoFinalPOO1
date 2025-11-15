@@ -42,6 +42,6 @@ Define:
 Cada uma sobrescreve o método `calcularPagamento()` com sua própria regra.
 
 ### **✔ Polimorfismo e lista heterogênea**
-🆚 Diferença Entre a Versão POO e a Versão Sem POO
+#🆚 Diferença Entre a Versão POO e a Versão Sem POO
 
 A seguir você encontrará uma explicação clara, organizada e interativa mostrando a diferença entre as duas implementações realizadas no projeto.
