@@ -1,215 +1,209 @@
-# Sistema de Pagamento de Professores
+# 📘 Sistema de Pagamento de Professores & Sistema de Comissão de Vendedores  
+### *(Dois Exercícios Implementados – POO e Sem POO)*
 
-Este projeto implementa um sistema completo de cálculo salarial para diferentes categorias de professores de uma universidade, utilizando duas abordagens:
+Este repositório contém **dois sistemas completos**, cada um implementado em **duas versões** (quando aplicável):
 
-- **POO (Programação Orientada a Objetos)**
-- **Programação Procedural (sem POO)**
+- ✔ **Exercício 1 — Sistema de Pagamento de Professores**
+  - Versão **POO**
+  - Versão **Sem POO**
+- ✔ **Exercício 2 — Sistema de Comissão de Vendedores**
+  - Versão **POO**
 
-O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, destacando vantagens, desvantagens e diferenças de implementação.
-
-# Clique na imagem abaixo para **baixar** o vídeo de explicação:
-
-<div align="center">
-  <a href="./Explicao.mp4?raw=true">
-    <img src="./thumb.png" alt="Download Explicação" width="150">
-  </a>
-</div>
-
-<br>
-<div align="center">
-<a href="./Explicao.mp4?raw=true">Download do Vídeo</a>
-</div>
-
-
-
-## 📚 Regras de Negócio
-
-### **Professor Horista**
-- Recebe **R$ 85,00 por hora-aula**
-- Máximo de **160h/mês**
-
-### **Professor Dedicação Exclusiva**
-- Salário fixo de **R$ 8.000,00**
-- + **R$ 1.500,00 por titulação** (mestre/doutor)
-
-### **Professor Pesquisador**
-- Salário base de **R$ 5.000,00**
-- + **R$ 2.000,00 por projeto ativo**
+Os objetivos incluem comparar paradigmas, aplicar princípios de orientação a objetos e demonstrar domínio de lógica e organização de software.
 
 ---
 
-# 🟦 Versão POO (Programação Orientada a Objetos)
+# 📂 Organização do Projeto
 
-A estrutura é composta por:
+A estrutura de pastas está organizada da seguinte forma:
 
+```
+TrabalhoFinalPOO1
+│
+├── Trabalho_pagamento_professores
+│   ├── comPOO     → Versão orientada a objetos (POO)
+│   └── semPOO     → Versão estrutural (sem POO)
+│
+└── Trablho_comisao_vendedores
+    └── comPOO     → Versão orientada a objetos (POO) do exercício 2
+```
 
-### ✔ Classe abstrata `Professor`
-Define:
-- Nome do professor
-- Método abstrato `calcularPagamento()`
+---
 
-### **✔ Três subclasses:**
+# 🎥 Vídeo Explicativo
 
+Clique na imagem para baixar o vídeo:
+
+<a href="./Explicao.mp4?raw=true">
+  <img src="./thumb.png" alt="Download Explicação" width="130">
+</a>
+
+👉 **[Baixar vídeo de explicação](./Explicao.mp4?raw=true)**
+
+---
+
+# 🧠 EXERCÍCIO 1 — Sistema de Pagamento de Professores
+
+Implementado em duas abordagens:
+
+- **✔ POO (Programação Orientada a Objetos)**
+- **✔ Sem POO (Programação Estrutural)**
+
+---
+
+# 📚 Regras de Negócio — Professores
+
+### 👤 Professor Horista
+- R$ 85,00 por hora  
+- Limite de 160h/mês
+
+### 🎓 Professor Dedicação Exclusiva
+- Salário fixo de R$ 8.000,00  
+- + R$ 1.500,00 por titulação
+
+### 🔬 Professor Pesquisador
+- Salário base de R$ 5.000,00  
+- + R$ 2.000,00 por projeto ativo
+
+---
+
+# 🟦 Versão POO — Pagamento de Professores
+
+### ✔ Estrutura de Classes
+- `Professor` (classe abstrata)
 - `ProfessorHorista`
 - `ProfessorDedicacaoExclusiva`
 - `ProfessorPesquisador`
+- `Main.java`
 
-Cada uma implementa sua própria regra de cálculo salarial.
-
-### ✔ Polimorfismo e lista heterogênea
-
-Exemplo utilizado no `Main`:
-
+### ✔ Polimorfismo
 ```java
 List<Professor> professores = new ArrayList<>();
-```
-
-O polimorfismo ocorre ao chamar:
-
-```java
 p.calcularPagamento();
 ```
 
-Cada professor usa sua própria versão do método.
+### ✔ Vantagens
+- Código mais limpo  
+- Fácil de expandir  
+- Manutenção simples  
 
 ---
 
-# 🆚 Diferença Entre a Versão POO e a Versão Sem POO
+# 🟥 Versão Procedural — Sem POO
 
-A seguir você encontrará uma explicação clara, organizada e interativa mostrando a diferença entre as duas implementações.
+- Toda a lógica concentrada em `MainProcedural`
+- Uso de `switch-case`
+- Estrutura simples e direta  
 
----
-
-## 🔍 Visão Geral
-
-| Abordagem | Característica Principal | Vantagens | Desvantagens |
-|-----------|--------------------------|-----------|--------------|
-| **POO** | Cada tipo de professor vira uma classe | Polimorfismo, herança, organização, escalabilidade | Mais arquivos |
-| **Procedural** | Toda lógica concentrada em um único método | Simples e rápida de escrever | Difícil de manter e não escalável |
+Ideal para exercícios iniciais, mas não escalável.
 
 ---
 
-# 📦 Explicações Interativas
+# 🖼 Resultados Ilustrativos — EXERCÍCIO 1
 
-Clique para expandir:
-
----
-
-<details>
-<summary><strong>📁 Estrutura do Código (POO vs Procedural)</strong></summary>
-
-## 🟦 POO – Organização por Classes
-- `Professor` (abstrata)
-- `ProfessorHorista`
-- `ProfessorDedicacaoExclusiva`
-- `ProfessorPesquisador`
-- `Main`
-
-Mais limpo, profissional e preparado para crescer.
-
----
-
-## 🟥 Procedural – Código Centralizado
-- Apenas uma classe (`MainProcedural`)
-- Uma estrutura para dados
-- Um método `calcularPagamento()`
-- Toda lógica no `switch-case`
-
-Bom para exercícios simples, ruim para escalabilidade.
-</details>
-
----
-
-<details>
-<summary><strong>⚙️ Polimorfismo (POO) vs Switch-case (Procedural)</strong></summary>
-
-## 🟦 POO – Polimorfismo
-Cada objeto professor sabe calcular seu próprio pagamento:
-
-```java
-p.calcularPagamento();
+### 🟦 POO — Saída Exemplo
+```
+=== Pagamentos (POO) ===
+Ana Silva - ProfessorHorista → R$ 8.500,00
+Bruno Costa - ProfessorHorista → R$ 13.600,00
+Carla Pereira - ProfessorDedicacaoExclusiva → R$ 9.500,00
+Diego Souza - ProfessorDedicacaoExclusiva → R$ 11.000,00
+Elisa Rocha - ProfessorPesquisador → R$ 11.000,00
+Fábio Lima - ProfessorPesquisador → R$ 5.000,00
+-----------------------------------------------------
+Total da folha: R$ 58.600,00
 ```
 
-O Java identifica qual método chamar automaticamente.
-
----
-
-## 🟥 Procedural – Switch-case
-No modelo procedural, você precisa decidir tudo manualmente:
-
-```java
-switch (prof.tipo) {
-    case "HORISTA":
-    case "DEDICACAO":
-    case "PESQUISADOR":
-}
+### 🟥 Procedural — Saída Exemplo
+```
+=== Pagamentos (Sem POO) ===
+[Ana Silva / HORISTA] R$ 8.500,00
+[Bruno Costa / HORISTA] R$ 13.600,00
+[Carla Pereira / DEDICACAO] R$ 9.500,00
+[Diego Souza / DEDICACAO] R$ 11.000,00
+[Elisa Rocha / PESQUISADOR] R$ 11.000,00
+[Fábio Lima / PESQUISADOR] R$ 5.000,00
+-----------------------------------------------------
+TOTAL: R$ 58.600,00
 ```
 
-Menos flexível e mais propenso a erros.
-</details>
+---
+
+# 🧮 EXERCÍCIO 2 — Sistema de Comissão de Vendedores (POO)
+
+Localizado em:
+
+```
+Trablho_comisao_vendedores/comPOO
+```
 
 ---
 
-<details>
-<summary><strong>🚀 Escalabilidade e Manutenção</strong></summary>
+# 📚 Regras de Negócio — Vendedores
 
-## 🟦 POO
-Para adicionar um novo tipo (ex: ProfessorVisitante), basta:
+### 🟢 Vendedor Júnior
+- 5% do total de vendas
 
-- Criar uma nova classe
-- Implementar `calcularPagamento()`
+### 🔵 Vendedor Sênior
+- 8% das vendas  
+- + R$ 500 por meta de 10.000 ultrapassada  
 
-Nada mais precisa ser modificado.
-
----
-
-## 🟥 Procedural
-Para adicionar um novo tipo você deve:
-
-- Modificar o `switch-case`
-- Adicionar novos atributos
-- Possivelmente alterar outras partes do código
-
-Mais arriscado e menos sustentável.
-</details>
+### 🟣 Gerente Comercial
+- Salário fixo: R$ 3.000  
+- + 2% sobre vendas totais da equipe  
 
 ---
 
-# 📊 Tabela Comparativa Final
+# 🖼 Resultados Ilustrativos — EXERCÍCIO 2
+
+```
+=== Comissões ===
+Junior - Ana → R$ 400,00
+Junior - Paulo → R$ 600,00
+Senior - Marcos → R$ 1.700,00
+Senior - Laura → R$ 2.840,00
+Gerente - Roberto → R$ 3.560,00
+-----------------------------------------------------
+Total a pagar: R$ 9.100,00
+```
+
+---
+
+# 🆚 Comparação Geral – POO vs Procedural (Exercício 1)
 
 | Critério | POO | Sem POO |
 |----------|------|---------|
 | Organização | ⭐⭐⭐⭐⭐ | ⭐⭐ |
-| Reutilização | Alta | Baixa |
+| Reuso | Alto | Baixo |
 | Polimorfismo | ✔ | ❌ |
 | Escalabilidade | Alta | Baixa |
 | Manutenção | Fácil | Difícil |
-| Adicionar novo tipo | Fácil (nova classe) | Difícil (alterar switch-case) |
-| Ideal para | Sistemas reais | Exercícios simples |
-
----
-
-# 💬 Resumo Final
-
-> A versão **POO** é mais organizada, modular, escalável e usada em sistemas reais.
-> A versão **Procedural** é simples e rápida, porém pouco escalável e difícil de manter.
+| Crescimento do sistema | Natural | Exige retrabalho |
+| Recomenda-se para | Projetos reais | Exercícios simples |
 
 ---
 
 # ▶️ Como Executar
 
-## 🟦 POO
+## 🟦 Pagamento de Professores (POO)
 ```bash
-cd poo
+cd Trabalho_pagamento_professores/comPOO
 javac *.java
 java Main
 ```
 
-## 🟥 Sem POO
+## 🟥 Pagamento de Professores (Sem POO)
 ```bash
-cd semPOO
+cd Trabalho_pagamento_professores/semPOO
 javac MainProcedural.java
 java MainProcedural
+```
+
+## 🟧 Comissão de Vendedores (POO)
+```bash
+cd Trablho_comisao_vendedores/comPOO
+javac *.java
+java Main
 ```
 
 ---
@@ -218,9 +212,13 @@ java MainProcedural
 
 - Java 17+
 - Programação Orientada a Objetos
-- Estruturas de Dados (`List<>`)
+- Polimorfismo e Herança
+- Programação Estrutural
+- Listas e coleções (`List<>`)
 - Formatação com `DecimalFormat`
 
 ---
 
 # 📄 Licença
+
+Uso livre para fins acadêmicos.
