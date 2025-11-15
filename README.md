@@ -1,4 +1,4 @@
-# 📘 Sistema de Pagamento de Professores & Sistema de Comissão de Vendedores  
+# 📘 Sistema de Pagamento de Professores & Sistema de Comissão de Vendedores
 ### *(Dois Exercícios Implementados – POO e Sem POO)*
 
 Este repositório contém **dois sistemas completos**, cada um implementado em **duas versões** (quando aplicável):
@@ -33,12 +33,13 @@ TrabalhoFinalPOO1
 # 🎥 Vídeo Explicativo
 
 Clique na imagem para baixar o vídeo:
-
+<div>
 <a href="./Explicao.mp4?raw=true">
   <img src="./thumb.png" alt="Download Explicação" width="130">
 </a>
 
-👉 **[Baixar vídeo de explicação](./Explicao.mp4?raw=true)**
+**[Baixar vídeo de explicação](./Explicao.mp4?raw=true)**
+</div>
 
 ---
 
@@ -54,15 +55,15 @@ Implementado em duas abordagens:
 # 📚 Regras de Negócio — Professores
 
 ### 👤 Professor Horista
-- R$ 85,00 por hora  
+- R$ 85,00 por hora
 - Limite de 160h/mês
 
 ### 🎓 Professor Dedicação Exclusiva
-- Salário fixo de R$ 8.000,00  
+- Salário fixo de R$ 8.000,00
 - + R$ 1.500,00 por titulação
 
 ### 🔬 Professor Pesquisador
-- Salário base de R$ 5.000,00  
+- Salário base de R$ 5.000,00
 - + R$ 2.000,00 por projeto ativo
 
 ---
@@ -83,9 +84,9 @@ p.calcularPagamento();
 ```
 
 ### ✔ Vantagens
-- Código mais limpo  
-- Fácil de expandir  
-- Manutenção simples  
+- Código mais limpo
+- Fácil de expandir
+- Manutenção simples
 
 ---
 
@@ -93,7 +94,7 @@ p.calcularPagamento();
 
 - Toda a lógica concentrada em `MainProcedural`
 - Uso de `switch-case`
-- Estrutura simples e direta  
+- Estrutura simples e direta
 
 Ideal para exercícios iniciais, mas não escalável.
 
@@ -145,12 +146,12 @@ Trablho_comisao_vendedores/comPOO
 - 5% do total de vendas
 
 ### 🔵 Vendedor Sênior
-- 8% das vendas  
-- + R$ 500 por meta de 10.000 ultrapassada  
+- 8% das vendas
+- + R$ 500 por meta de 10.000 ultrapassada
 
 ### 🟣 Gerente Comercial
-- Salário fixo: R$ 3.000  
-- + 2% sobre vendas totais da equipe  
+- Salário fixo: R$ 3.000
+- + 2% sobre vendas totais da equipe
 
 ---
 
