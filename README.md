@@ -6,11 +6,11 @@ Este projeto implementa um sistema completo de cálculo salarial para diferentes
 - **Programação Procedural (sem POO)**
 
 O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, destacando vantagens, desvantagens e diferenças de implementação.
-
-Clique na imagem abaixo para **baixar** o vídeo diretamente:
+---
+# Clique na imagem abaixo para **baixar** o vídeo diretamente:
 
 <a href="./Explicao.mp4?raw=true">
-  <img src="./thumb.png" alt="Download Explicação" width="300">
+  <img src="./thumb.png" alt="Download Explicação" width="100">
 </a>
 
 ---
