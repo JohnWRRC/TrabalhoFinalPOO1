@@ -9,7 +9,7 @@ O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, dest
 
 ## 🎥 Vídeo de Explicação
 
-[![Clique para assistir](./thumb.png)](./explicacao.mp4)
+[![Clique para assistir](./thumb.png)](./Explicao.mp4)
 
 ---
 
