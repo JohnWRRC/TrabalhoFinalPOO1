@@ -29,26 +29,18 @@ O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, dest
 
 A estrutura é composta por:
 
-<<<<<<< HEAD
+
 ### ✔ Classe abstrata `Professor`
 Define:
 - Nome do professor
 - Método abstrato `calcularPagamento()`
 
-### ✔ Três subclasses:
-=======
-### **✔ Classe abstrata `Professor`**
-Define:
-- nome do professor
-- assinatura do método abstrato `calcularPagamento()`
-
 ### **✔ Três subclasses:**
->>>>>>> 45bdb780e401ebd29cea0ea042b85ea52ef875c7
+
 - `ProfessorHorista`
 - `ProfessorDedicacaoExclusiva`
 - `ProfessorPesquisador`
 
-<<<<<<< HEAD
 Cada uma implementa sua própria regra de cálculo salarial.
 
 ### ✔ Polimorfismo e lista heterogênea
