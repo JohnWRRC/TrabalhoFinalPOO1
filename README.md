@@ -29,16 +29,26 @@ O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, dest
 
 A estrutura é composta por:
 
+<<<<<<< HEAD
 ### ✔ Classe abstrata `Professor`
 Define:
-- Nome do professor  
+- Nome do professor
 - Método abstrato `calcularPagamento()`
 
 ### ✔ Três subclasses:
+=======
+### **✔ Classe abstrata `Professor`**
+Define:
+- nome do professor
+- assinatura do método abstrato `calcularPagamento()`
+
+### **✔ Três subclasses:**
+>>>>>>> 45bdb780e401ebd29cea0ea042b85ea52ef875c7
 - `ProfessorHorista`
 - `ProfessorDedicacaoExclusiva`
 - `ProfessorPesquisador`
 
+<<<<<<< HEAD
 Cada uma implementa sua própria regra de cálculo salarial.
 
 ### ✔ Polimorfismo e lista heterogênea
@@ -141,7 +151,7 @@ Menos flexível e mais propenso a erros.
 ## 🟦 POO
 Para adicionar um novo tipo (ex: ProfessorVisitante), basta:
 
-- Criar uma nova classe  
+- Criar uma nova classe
 - Implementar `calcularPagamento()`
 
 Nada mais precisa ser modificado.
@@ -176,7 +186,7 @@ Mais arriscado e menos sustentável.
 
 # 💬 Resumo Final
 
-> A versão **POO** é mais organizada, modular, escalável e usada em sistemas reais.  
+> A versão **POO** é mais organizada, modular, escalável e usada em sistemas reais.
 > A versão **Procedural** é simples e rápida, porém pouco escalável e difícil de manter.
 
 ---
@@ -208,5 +218,4 @@ java MainProcedural
 
 ---
 
-# 📄 Licença  
-MIT License
+# 📄 Licença
