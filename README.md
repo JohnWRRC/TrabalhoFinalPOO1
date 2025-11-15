@@ -11,7 +11,7 @@ O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, dest
 
 Clique na imagem abaixo para **baixar** o vídeo diretamente:
 
-[![Clique para baixar o vídeo](./thumb.png)](./explicacao.mp4?raw=true)
+[![Download Explicação](./thumb.png)](./explicacao.mp4?raw=true)
 
 ---
 
