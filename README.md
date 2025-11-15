@@ -16,9 +16,9 @@ O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, dest
 </div>
 
 <br>
-
+<div align="center">
 👉 <a href="./Explicao.mp4?raw=true">Download do Vídeo</a>
-
+</div>
 ---
 
 ## 📚 Regras de Negócio
