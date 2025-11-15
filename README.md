@@ -26,6 +26,8 @@ TrabalhoFinalPOO1
 │
 └── Trablho_comisao_vendedores
     └── comPOO     → Versão orientada a objetos (POO) do exercício 2
+    └── semPOO     → Versão estrutural (sem POO)
+    
 ```
 
 ---
