@@ -7,11 +7,11 @@ Este projeto implementa um sistema completo de cálculo salarial para diferentes
 
 O objetivo é comparar, na prática, os dois paradigmas de desenvolvimento, destacando vantagens, desvantagens e diferenças de implementação.
 
-## Download 🎥 Vídeo de Explicação
-
 Clique na imagem abaixo para **baixar** o vídeo diretamente:
 
-[![Download Explicação](./thumb.png)](./explicacao.mp4?raw=true)
+<a href="./Explicao.mp4?raw=true">
+  <img src="./thumb.png" alt="Download Explicação" width="300">
+</a>
 
 ---
 
